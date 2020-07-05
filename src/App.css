@@ -1,0 +1,31 @@
+.app-wraper{
+  display: grid;
+  margin: 0 auto;
+  width: 1200px;
+
+  grid-template-areas: 
+  "header header"
+  "site_bar main_content";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+ /* grid-gap: 10px;*/
+}
+
+.header{
+grid-area: header;
+background-color: rgb(195, 195, 236);
+}
+.header img{
+  width: 200px;
+}
+
+.site_bar{
+grid-area: site_bar;
+background-color: rgb(129, 176, 230);
+}
+
+.main_content{
+grid-area: main_content;
+background-color: rgb(195, 220, 231);
+}
