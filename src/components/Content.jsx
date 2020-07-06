@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
+import './Content.css';
+import nastol from './../images/nastol.png';
 
 const Content = () => {
   return (
     <div className="main_content">
       <div>
-        <img src="https://www.nastol.com.ua/download.php?img=201608/2560x1600/nastol.com.ua-183578.jpg" />
+      <img src={nastol}/>
       </div>
       <div>ava + discription</div>
       <div>my post</div>
